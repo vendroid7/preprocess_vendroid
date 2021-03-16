@@ -1,12 +1,12 @@
 
 from preprocess_vendroid import utils
 
-__version__ = '1.0.1'
+__version__ = '1.0.4'
 
-def __word_count(x):
+def word_count(x):
 	return utils.__word_count(x)
 
-def __char_counts(x):
+def char_counts(x):
 	return utils.__char_counts(x)
 
 def get_avg_wordlength(x):
@@ -57,7 +57,7 @@ def remove_accented_chars(x):
 
 
 def remove_stopwords(x):
-	return utils.remove_stopwords(x)
+	return utils._remove_stopwords(x)
 
 def make_base(x):
 	return utils._make_base(x)
