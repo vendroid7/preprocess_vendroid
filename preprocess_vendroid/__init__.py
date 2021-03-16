@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 15 22:14:48 2021
-
-@author: venka
-"""
 
 import utils
 
