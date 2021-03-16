@@ -80,8 +80,3 @@ def remove_rarewords(x, freq, n=20):
 def spelling_correction(x):
 	return utils._spelling_correction(x)
 
-nlp = spacy.load('en_core_web_sm')
-test='this spyder is crap'
-text=nlp(test)
-for i in text:
-    print(i)
