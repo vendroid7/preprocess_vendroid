@@ -1,5 +1,5 @@
 
-import utils
+from preprocess_vendroid import utils
 
 __version__ = '1.0.1'
 
