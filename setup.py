@@ -6,7 +6,7 @@ with open('README.md', 'r') as file:
 
 setuptools.setup(
 	name = 'preprocess_vendroid', #this should be unique
-	version = '1.0.1',
+	version = '1.0.4',
 	author = 'Venkatesh Iyer',
 	author_email = 'venkateshiyer00@gmail.com',
 	description = 'This is preprocessing package for textual data',
@@ -17,5 +17,5 @@ setuptools.setup(
 	'Programming Language :: Python :: 3',
 	'License :: OSI Aproved :: MIT License',
 	"Operating System :: OS Independent"],
-	python_requires = '>=3.5'
+	python_requires = '>=3.7'
 	)

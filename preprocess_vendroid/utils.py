@@ -49,7 +49,7 @@ def _get_uppercase_counts(x):
 
 
 
-def cont_to_exp(x):
+def _cont_exp(x):
     
     contractions = { 
 	"ain't": "am not",
